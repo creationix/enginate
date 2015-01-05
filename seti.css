@@ -1,0 +1,58 @@
+/* theme based on set of InkJoy colored pens and a little notbook */
+/* Created by Tim Caswell <tim@creationix.com> */
+
+.cm-s-seti.CodeMirror {
+  background-color:#151718;
+  color:#d4d7d6;
+  font-family: Menlo, Vera Sans Mono, Ubuntu Mono, Consolas, Monaco, monospace;
+}
+
+.cm-s-seti div.CodeMirror-cursor {
+  border-color: #ffe792;
+  border-width: 2px;
+}
+
+/* TODO: invisibles #F3FFB51A */
+
+.cm-s-seti .CodeMirror-activeline-background {
+  background: #101112;
+}
+
+.cm-s-seti .CodeMirror-selected {background: #222}
+.cm-s-seti.CodeMirror-focused .CodeMirror-selected {background: #333;}
+
+
+.cm-s-seti .CodeMirror-gutters {
+  background: #0D1011;
+  border-right:none;
+}
+.cm-s-seti .CodeMirror-linenumber {
+  color: #d4d7d670;
+}
+
+.cm-s-seti .cm-comment {color:#4a5f68}
+.cm-s-seti .cm-string {color:#55b5db}
+.cm-s-seti .cm-string-2 {color:#9fca56}
+.cm-s-seti .cm-property { color: #A9FF98;}
+.cm-s-seti .cm-qualifier { }
+.cm-s-seti .cm-variable {color: #276AFF;}
+.cm-s-seti .cm-def { color: #55b5db; }
+.cm-s-seti .cm-variable-2 { }
+.cm-s-seti .cm-variable-3 {color:#10FF07}
+.cm-s-seti .cm-builtin {}
+.cm-s-seti .cm-tag {}
+.cm-s-seti .cm-keyword {color:#e6cd69}
+.cm-s-seti .cm-operator {color:#9FCA56}
+.cm-s-seti .cm-number {color:#cd3f45}
+.cm-s-seti .cm-atom {color:#a074c4}
+
+
+
+div.cm-s-seti span.CodeMirror-matchingbracket {
+  color: #cd3f45;
+  font-weight: bold;
+}
+.cm-s-seti .CodeMirror-ruler {
+  border-color: #333;
+}
+
